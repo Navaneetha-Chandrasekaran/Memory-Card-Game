@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Memory Game</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <h1>🧠 Memory Game</h1>
+
+  <p>⏱️ Time: <span id="timer">0</span> seconds</p>
+
+  <div id="gameBoard" style="pointer-events: none;"></div>
+
+  <div style="margin-top: 20px;">
+    <button id="startBtn"> ▶️ Start Game</button>
+    <!-- <div id="gameBoard"></div> -->
+    <button onclick="restartGame()">🔁 Restart</button>
+  </div>
+  <div id="winMessage" style="display: none;" class="win-message">
+  </div>
+
+
+  <script src="script.js"></script>
+</body>
+</html>
